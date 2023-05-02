@@ -1,0 +1,301 @@
+/* body {
+    font-family: 'Roboto', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+} */
+
+header {
+    font-size: 20px;    
+    font-weight: 700;
+    font-family: 'Exo';
+}
+header .nav-link {
+    font-size: 20px;
+}
+header .btn {
+    font-size: 20px;    
+    font-weight: 500;
+    font-family: 'Montserrat';
+}
+header .btn-primary {
+    width: 150px;
+    height: 60px;
+}
+header .btn-outline-primary {
+    width: 215px;
+    height: 60px;
+}
+.row.mx-3 .col-sm{
+    padding: 0;
+}
+.btn {
+    border-radius: 40px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    line-height: 3rem;
+}
+.btn-primary {
+    --bs-btn-bg: #096B6A;
+    --bs-btn-border-color: #096B6A;    
+    --bs-btn-hover-bg: #08615c;
+    --bs-btn-hover-border-color: #08615c;
+    --bs-btn-active-bg: #075b52;
+    --bs-btn-active-border-color: #075b52;
+    --bs-btn-disabled-color: #8a8a8a;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #8a8a8a;
+}
+.btn-outline-primary {
+    --bs-btn-hover-bg: #08615c;
+    --bs-btn-hover-border-color: #08615c;
+    --bs-btn-active-bg: #075b52;
+    --bs-btn-active-border-color: #075b52;
+    --bs-btn-color: #096B6A;
+    --bs-btn-border-color: #096B6A;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-active-color: #fff;
+    --bs-btn-disabled-color: #8a8a8a;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #8a8a8a;
+}
+.nav{    
+    color: black;
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: .5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: black;
+    --bs-nav-link-hover-color: #096B6A;
+    --bs-nav-link-disabled-color: #6c757d;    
+}
+.nav-link{
+    font-weight: 700;
+}
+.btn.btn-primary.btn-lg.px-4.me-md-2 {
+    width: 390px;
+    height: 75px;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+}
+.main-image {
+    position: absolute;
+    z-index: -10;
+    top: 19%;
+    left: 28%;
+}
+
+.hero-content{
+    margin-top: 180px;
+    margin-bottom: 300px;
+}
+.hero-h{
+    margin-bottom: 90px;
+}
+h1, h2, h3 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+h1 {font-size: 42px;}
+h3.display-5, h3.display-4 {font-size: 36px;}
+
+.image{
+    width: 100%;
+    height: 100%;
+}
+ul li.mb-2 {
+    list-style: none;
+}
+ul li.mb-2::marker{
+    content: "•    ";
+}
+
+.image .tablet {
+    position: absolute;
+    top: 50%;
+    left: auto;
+}
+.image .phone {
+    position: absolute;
+    top: 50%;
+    left: auto;
+}
+
+.col-lg-6 {
+    font-family: 'Exo';
+    font-weight: 400;
+    font-size: 24px;
+}
+.col-lg-5 {
+    font-family: 'Exo';
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.lead {
+    font-weight: 700;
+    font-size: 24px;
+}
+form label {
+    font-family: 'Exo';
+    font-weight: 700;
+    font-size: 24px;
+}
+form .btn{    
+    width: 295px;
+    height: 70px;
+    font-size: 22px;    
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+.form-control{
+    border-radius: 40px;
+    font-family: 'Exo';
+    font-size: 400;
+    font-size: 20px;
+    height: 60px;
+}
+.form-control.discrip{
+    height: 170px;
+    border-radius: 16px;
+}
+footer .nav {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Exo';
+}
+footer .text-center{
+    font-weight: 400;
+    font-family: 'Exo';
+    font-size: 18px;
+}
+
+.flex-lg-row-reverse{
+    flex-wrap:wrap-reverse;
+}
+
+.copyright {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 1650px) {
+    .main-image {
+        position: absolute;
+        z-index: -10;
+        top: 19%;
+        left: 22%;
+    }
+}
+
+@media only screen and (max-width: 1520px) {
+    .main-image {
+        position: absolute;
+        z-index: -10;
+        top: 19%;
+        left: 18%;
+    }
+
+}
+
+@media only screen and (max-width: 1440px) {
+    .main-image {
+        position: absolute;
+        z-index: -10;
+        top: 22%;
+        left: 14%;
+    }
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+
+@media (min-width: 1400px){
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 1440px;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+
+
+@media only screen and (max-width: 1350px) {
+    .hero-image {
+        display: none;
+    }
+    .hero-content{
+        margin-top: 90px;
+        margin-bottom: 130px;
+    }
+    .hero-h{
+        margin-bottom: 90px;
+    }
+    .hero-content {
+        text-align: center!important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+    
+
+    header .btn-primary {
+        width: 100px;
+        height: 45px;
+        line-height: 2rem;
+    }
+    header .btn-outline-primary.me-3 {
+        width: 180px;
+        height: 45px;
+        line-height: 2rem;
+    }
+    .row.row-cols-sm.mx-3.text-end{
+        text-align: center!important;
+    }
+    /* flex-wrap:wrap-reverse */
+    .hero-content {
+        text-align: center!important;
+    }
+
+    .btn.btn-primary.btn-lg.px-4.me-md-2 {
+        width: 220px;
+        height: 60px;
+    }
+
+    .row.flex-lg-row-reverse.align-items-center.g-5.py-5{
+        justify-content: center;
+    }
+    .row.flex-lg-row-reverse.align-items-center.g-5.py-5.special{
+        flex-wrap:wrap!important;
+    }
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .copyright {
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    header .btn-outline-primary.me-3 {
+        margin-left: 1rem!important;
+    }
+    header .btn-primary.mb-2 {
+        margin-left: 1rem!important;
+        margin-right: 1rem!important;        
+    }
+    .btn.btn-primary.btn-lg.px-4.me-md-2 {
+        width: 220px;
+        height: 60px;
+        line-height: 2rem;
+    }    
+    form{
+        justify-content: center;
+    }
+    form div.com-md-5{
+        margin: 0px;
+    }
+
+}
