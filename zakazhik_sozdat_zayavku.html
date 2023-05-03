@@ -45,10 +45,7 @@
     </div>
     <div class="right-board">
         <div class="right-board-grid mb-5">
-            <label class="search-input">
-                <img src="img\svg\Search.svg" alt="search">
-                <input type="text" class="form-control" id="Name" placeholder="Поиск">
-            </label>
+            <div></div>
 
             <div class="user-block">
 
@@ -79,56 +76,47 @@
 
 
         <div class="d-flex justify-content-between align-items-center mb-3">
-            <h2>Список заявок</h2>
-            <button class="btn btn-primary btn-curs" type="submit">Создать заявку</button>
+            <h2>Создать заявку</h2>
         </div>
 
-        <div class="right-board-grid">
-            <div class="task-card">
-                <h3>Уборка снега</h3>
+        <div class="task-form">
 
-                <p>
-                    Необходимо убрать снег вокруг дома Судостроительная 1
-                </p>
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-xl-10 col-md-12">
+                    <label for="JobType" class="form-label ">Вид работы/название</label>
+                    <input type="text" class="form-control" placeholder="Вид работы/название" id="JobType" required>
+                </div>
 
-                <ul>
-                    <li><span class="material-symbols-outlined">calendar_today</span>30 марта, 16:00 - 18:00</li>
-                </ul>
-                <ul>
-                    <li><span class="material-symbols-outlined">currency_ruble</span>20 000 ₽</li>
-                </ul>
-                <ul>
-                    <li><span class="material-symbols-outlined">location_on</span>г.Красноярск, ул. Судостроительная, 1
-                    </li>
-                </ul>
+                <div class="col-xl-10 col-md-12">
+                    <label for="Desc" class="form-label ">Описание</label>
+                    <textarea type="textarea" class="form-control discrip" id="Desc" required placeholder="Опишите более подробно, что необходимо сделать..."></textarea>
+                </div>
 
-                <button class="btn btn-outline-primary ms-lg-4">Удалить</button>
-                <button class="btn btn-primary btn-lg ms-lg-3" type="submit">Изменить</button>
+                <div class="col-xl-10 col-md-12">
+                    <label for="Address" class="form-label ">Адрес</label>
+                    <input type="text" class="form-control" placeholder="Адрес, где требуется выполнить работу"
+                           id="Address" required>
+                </div>
 
-            </div>
+                <div class="col-xl-5 col-md-6 pe-xl-4">
+                    <label for="Date" class="form-label">Дата</label>
+                    <input type="text" class="form-control" id="Date" placeholder="Дата" required>
+                </div>
 
-            <div class="task-card">
-                <h3>Уборка снега</h3>
+                <div class="col-xl-5 col-md-6">
+                    <label for="WorkingHours" class="form-label">Время</label>
+                    <input type="text" class="form-control" id="WorkingHours" placeholder="Время работы" required>
+                </div>
 
-                <p>
-                    Необходимо убрать снег вокруг дома Судостроительная 1
-                </p>
+                <div class="col-xl-5 col-md-6 pe-xl-4">
+                    <label for="Budget" class="form-label">Бюджет</label>
+                    <input type="text" class="form-control" id="Budget" placeholder="Стоимость работы" required>
+                </div>
 
-                <ul>
-                    <li><span class="material-symbols-outlined">calendar_today</span>30 марта, 16:00</li>
-                </ul>
-                <ul>
-                    <li><span class="material-symbols-outlined">currency_ruble</span>20 000 ₽</li>
-                </ul>
-                <ul>
-                    <li><span class="material-symbols-outlined">location_on</span>г.Красноярск, ул. Судостроительная, 1
-                    </li>
-                </ul>
-
-                <button class="btn btn-outline-primary ms-lg-4">Удалить</button>
-                <button class="btn btn-primary btn-lg ms-lg-3" type="submit">Изменить</button>
-
-            </div>
+                <div class="col-xl-10 col-md-12 text-center mt-4">
+                    <button class="btn btn-primary btn-lg" type="submit">Создать заявку</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>

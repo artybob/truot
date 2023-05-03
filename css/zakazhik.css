@@ -12,6 +12,7 @@
 }
 .left-menu ul {
     margin-top: 82px;
+    padding: 0px;
 }
 
 .left-menu ul li {
@@ -21,7 +22,13 @@
 }
 
 .left-menu ul li a {
+    display: flex;
+    align-items: center;
     color: #B8B8B8;
+}
+
+.left-menu ul li a span{
+    margin-right: 10px;
 }
 
 .left-menu ul li a:hover {
@@ -65,7 +72,15 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
+    display: flex;
+    align-items: center;
 }
+
+.task-card ul li span {
+    color: rgba(0, 0, 0, 0.6);
+    margin-right: 7px;
+}
+
 .task-card p {
     font-family: 'Exo';
     font-style: normal;
@@ -74,12 +89,17 @@
     line-height: 32px;
     color: rgba(0, 0, 0, 0.6);
 }
+.task-card ul{
+    padding-left: 0px;
+}
+
 .user-block {
     font-family: 'Montserrat';
     font-style: normal;
     line-height: 22px;
     display: flex;
     margin-left: auto;
+    align-items: center;
 }
 .task-card button {
     line-height: 34px;
@@ -124,4 +144,14 @@
 .search-input img:hover {
     cursor: pointer;
     opacity: 0.8;
+}
+
+.expand-arrow {
+    margin-left: 10px;
+    font-size: 36px!important;
+}
+
+.expand-arrow:hover {
+    cursor: pointer;
+    opacity: .6;
 }
