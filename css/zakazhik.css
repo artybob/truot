@@ -1,0 +1,127 @@
+.left-menu {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    padding: 45px;
+    background: rgba(207, 193, 175, 0.05);
+    /*max-width: 288px;*/
+    height: 100vh;
+    position: relative;
+}
+.left-menu ul {
+    margin-top: 82px;
+}
+
+.left-menu ul li {
+    list-style: none;
+    white-space: nowrap;
+    margin-bottom: 38px;
+}
+
+.left-menu ul li a {
+    color: #B8B8B8;
+}
+
+.left-menu ul li a:hover {
+    color: #000000;
+}
+
+.left-menu-logo {
+    margin-left: 30px;
+}
+.left-menu .bottom-button {
+    position: absolute;
+    bottom: 96px;
+}
+.task-card {
+    background: #FFFFFF;
+    border: 0.5px solid #888888;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    padding: 30px;
+}
+.right-board {
+    padding: 48px 65px;
+    width: 100%;
+}
+.task-card button {
+    width: 165px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+.right-board-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 48px;
+    display: grid;
+}
+.task-card ul li {
+    list-style: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.task-card p {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.user-block {
+    font-family: 'Montserrat';
+    font-style: normal;
+    line-height: 22px;
+    display: flex;
+    margin-left: auto;
+}
+.task-card button {
+    line-height: 34px;
+}
+.user-block .name-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 18px;
+}
+
+.user-block .name-wrap .user-name {
+    font-weight: 600;
+    font-size: 18px;
+}
+.user-block .name-wrap .user-status {
+    font-size: 18px;
+    line-height: 22px;
+    color: #6D6C6C;
+}
+.btn-curs {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 48px;
+    padding-left: 31px;
+    padding-right: 31px;
+    text-align: center;
+}
+
+.search-input {
+    position: relative;
+}
+
+.search-input img {
+    position: absolute;
+    bottom: -5px;
+    right: 7px;
+    top: 6px;
+    width: 48px;
+}
+.search-input img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
