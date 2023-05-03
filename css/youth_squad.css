@@ -24,6 +24,10 @@
     color: #B8B8B8;
 }
 
+.left-menu ul li a.active {
+    color: #000000;
+}
+
 .left-menu ul li a:hover {
     color: #000000;
 }
