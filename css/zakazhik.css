@@ -3,6 +3,27 @@
     .right-board-grid {
         grid-template-columns: 1fr!important;
     }
+
+
+    .left-menu {
+        display: none!important;
+    }
+
+    .right-board .top-menu-lg {
+        display: none;
+    }
+
+    .right-board .top-menu-sm {
+        display: block!important;
+    }
+
+    .right-board-grid .customer-profile-desc {
+        margin-top: 50px;
+    }
+}
+
+.top-menu-sm {
+    display: none;
 }
 
 .left-menu {
