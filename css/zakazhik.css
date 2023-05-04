@@ -1,3 +1,10 @@
+
+@media only screen and (max-width: 1280px) {
+    .right-board-grid {
+        grid-template-columns: 1fr!important;
+    }
+}
+
 .left-menu {
     font-family: 'Exo';
     font-style: normal;
@@ -194,4 +201,38 @@
     line-height: 24px;
 
     color: #888888;
+}
+
+.docs {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #888888;
+}
+
+.docs ul li {
+    padding: 5px 0;
+}
+
+.docs .btn {
+    font-weight: 500!important;
+}
+
+.docs-list {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    font-family: 'Exo';
+    color: #000000;
+
+}
+
+.docs-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 1px solid #888888;
+    padding: 17px 0;
 }

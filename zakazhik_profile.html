@@ -80,10 +80,12 @@
                     Профиль
                 </h1>
 
-                Расскажите о своей компании,
-                приложите документы, подтверждяющие вашу деятельность.
-                <br>
-                <span>Это необходимо для сотрудничества с молодежными центрами</span>
+                <div>
+                    Расскажите о своей компании,
+                    приложите документы, подтверждяющие вашу деятельность.
+                </div>
+
+                <span class="mt-4">Это необходимо для сотрудничества с молодежными центрами</span>
             </div>
 
             <div>
@@ -92,28 +94,49 @@
 
                     <form method="post" enctype="multipart/form-data">
                         <label class="input-file">
-                            <div>Обновить фото</div>
+                            <div class="mb-2">Обновить фото</div>
                             <input type="file" name="file">
                         </label>
                     </form>
                 </div>
 
                 <form class="row g-3 needs-validation" novalidate>
-                    <div class="col-xl-10 col-md-12">
+                    <div>
                         <label for="CompanyName" class="form-label ">Название компании</label>
                         <input type="text" class="form-control" placeholder="Название" id="CompanyName" required>
                     </div>
 
-                    <div class="col-xl-10 col-md-12">
+                    <div>
                         <label for="AboutCompany" class="form-label ">О компании</label>
                         <textarea type="textarea" class="form-control discrip" id="AboutCompany" required placeholder="Опишите вашу деятельность"></textarea>
                     </div>
 
-                    <div class="col-xl-10 col-md-12">
+                    <div class="mb-2">
                         <label for="Documents" class="form-label ">Документы</label>
+
+                        <div class="docs">
+                            Приложите следующий список документов:
+                            <ul>
+                                <li>Док №1</li>
+                                <li>Док №2</li>
+                            </ul>
+
+                            <button class="btn btn-outline-primary">Добавить документы</button>
+                            <div class="docs-list">
+                                <div class="docs-list-item">
+                                    Документ №1.doc
+                                    <button type="button" class="btn-close" aria-label="Close"></button>
+                                </div>
+                                <div class="docs-list-item">
+                                    Документ №2.doc
+                                    <button type="button" class="btn-close" aria-label="Close"></button>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
-                    <div class="col-xl-10 col-md-12 text-center mt-4">
+                    <div class="text-center mt-4">
                         <button class="btn btn-primary btn-lg btn-curs" type="submit">Сохранить данные</button>
                     </div>
                 </form>
