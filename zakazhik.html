@@ -44,11 +44,10 @@
         </div>
     </div>
     <div class="right-board">
-        <div class="right-board-grid mb-5">
-            <label class="search-input">
-                <img src="img\svg\Search.svg" alt="search">
-                <input type="text" class="form-control" id="Name" placeholder="Поиск">
-            </label>
+        <div class="right-board-grid mb-5 top-menu-lg">
+            <div>
+
+            </div>
 
             <div class="user-block">
 
@@ -76,9 +75,42 @@
             </div>
 
         </div>
+        <div class="mb-5 top-menu-sm">
+            <a href="#" class="left-menu-logo d-inline-flex link-body-emphasis text-decoration-none">
+                <img class="bi logo-sm" src="img\svg\logo.svg">
+            </a>
+
+            <div class="search-input">
+                <img src="img\svg\Search.svg" alt="search">
+                <input type="text" class="form-control top-search" id="Name" placeholder="Поиск">
+            </div>
 
 
-        <div class="d-flex justify-content-between align-items-center mb-3">
+            <span class="material-symbols-outlined burger-menu">
+            menu
+            </span>
+        </div>
+
+        <div class="top-menu-xs">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <a href="#" class="left-menu-logo d-inline-flex link-body-emphasis text-decoration-none">
+                    <img class="bi logo-sm" src="img\svg\logo.svg">
+                </a>
+
+                <span class="material-symbols-outlined burger-menu">
+                menu
+                </span>
+            </div>
+
+            <div class="search-input">
+                <img src="img\svg\Search.svg" alt="search">
+                <input type="text" class="form-control top-search" id="Name" placeholder="Поиск">
+            </div>
+
+        </div>
+
+
+        <div class="d-flex justify-content-between align-items-center mb-3 tasks-top-flex">
             <h2>Список заявок</h2>
             <button class="btn btn-primary btn-curs" type="submit">Создать заявку</button>
         </div>
@@ -102,8 +134,11 @@
                     </li>
                 </ul>
 
-                <button class="btn btn-outline-primary ms-lg-4">Удалить</button>
-                <button class="btn btn-primary btn-lg ms-lg-3" type="submit">Изменить</button>
+                <div class="task-card-buttons">
+                    <button class="btn btn-outline-primary ms-lg-4">Удалить</button>
+                    <button class="btn btn-primary btn-lg ms-lg-3" type="submit">Изменить</button>
+                </div>
+
 
             </div>
 
@@ -125,8 +160,10 @@
                     </li>
                 </ul>
 
-                <button class="btn btn-outline-primary ms-lg-4">Удалить</button>
-                <button class="btn btn-primary btn-lg ms-lg-3" type="submit">Изменить</button>
+                <div class="task-card-buttons">
+                    <button class="btn btn-outline-primary ms-lg-4">Удалить</button>
+                    <button class="btn btn-primary btn-lg ms-lg-3" type="submit">Изменить</button>
+                </div>
 
             </div>
         </div>

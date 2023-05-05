@@ -14,6 +14,11 @@
     <title>Заказчик - список</title>
 </head>
 <body>
+
+<div class="popup-menu">
+
+</div>
+
 <div class="d-flex">
     <div class="left-menu">
         <a href="#" class="left-menu-logo d-inline-flex link-body-emphasis text-decoration-none">
@@ -76,7 +81,37 @@
 
         </div>
         <div class="mb-5 top-menu-sm">
-            Меню мал
+            <a href="#" class="left-menu-logo d-inline-flex link-body-emphasis text-decoration-none">
+                <img class="bi logo-sm" src="img\svg\logo.svg">
+            </a>
+
+            <div class="search-input">
+                    <img src="img\svg\Search.svg" alt="search">
+                    <input type="text" class="form-control top-search" id="Name" placeholder="Поиск">
+            </div>
+
+
+            <span class="material-symbols-outlined burger-menu">
+            menu
+            </span>
+        </div>
+
+        <div class="top-menu-xs">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <a href="#" class="left-menu-logo d-inline-flex link-body-emphasis text-decoration-none">
+                    <img class="bi logo-sm" src="img\svg\logo.svg">
+                </a>
+
+                <span class="material-symbols-outlined burger-menu">
+                menu
+                </span>
+            </div>
+
+            <div class="search-input">
+                <img src="img\svg\Search.svg" alt="search">
+                <input type="text" class="form-control top-search" id="Name" placeholder="Поиск">
+            </div>
+
         </div>
 
         <div class="right-board-grid">
@@ -97,7 +132,7 @@
                 <div class="customer-profile-change-photo mb-4">
                     <img src="img\svg\User_no_avatar.svg">
 
-                    <form method="post" enctype="multipart/form-data">
+                    <form method="post" enctype="multipart/form-data" class="avatar-form">
                         <label class="input-file">
                             <div class="mb-2">Обновить фото</div>
                             <input type="file" name="file">
