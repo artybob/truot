@@ -1,3 +1,7 @@
+.material-symbols-outlined{
+    vertical-align: middle;  
+}
+
 .left-menu {
     font-family: 'Exo';
     font-style: normal;
@@ -6,9 +10,9 @@
     line-height: 29px;
     padding: 45px;
     background: rgba(207, 193, 175, 0.05);
-    /*max-width: 288px;*/
+    /* max-width: 288px; */
     height: 100vh;
-    position: relative;
+    position: sticky;
 }
 .left-menu ul {
     margin-top: 82px;
@@ -48,7 +52,6 @@
 }
 .right-board {
     padding: 48px 65px;
-    width: 100%;
 }
 .task-card button {
     width: 165px;
@@ -63,6 +66,10 @@
     grid-gap: 48px;
     display: grid;
 }
+
+/* """"""""""""""""task card"""""""""""""""" */
+
+
 .task-card ul li {
     list-style: none;
     font-style: normal;
@@ -70,13 +77,27 @@
     font-size: 20px;
     line-height: 24px;
 }
+.actual ul li{
+    color: #096B6A;
+    list-style: inside;
+}
+.irrelevant ul li {
+    color: #B20F0F;
+    list-style: inside;
+}
+
+.task-card .text-center .unactive {
+    font-weight: 700;
+    color: #b8b8b8;
+} 
+
 .task-card p {
     font-family: 'Exo';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0);
 }
 .user-block {
     font-family: 'Montserrat';
