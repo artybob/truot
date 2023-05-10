@@ -1,5 +1,5 @@
 .material-symbols-outlined{
-    vertical-align: middle;  
+    vertical-align: middle;
 }
 
 .left-menu {
@@ -20,7 +20,7 @@
 
 .left-menu ul li {
     list-style: none;
-    white-space: nowrap;
+    white-space: break-spaces;
     margin-bottom: 38px;
 }
 
@@ -49,6 +49,8 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 12px;
     padding: 30px;
+    align-items: stretch;
+    display: grid;
 }
 .right-board {
     padding: 48px 65px;
@@ -77,10 +79,17 @@
     font-size: 20px;
     line-height: 24px;
 }
+
+.task-card ul li .material-symbols-outlined {
+    color: #888888;
+}
+
+
 .actual ul li{
     color: #096B6A;
     list-style: inside;
 }
+
 .irrelevant ul li {
     color: #B20F0F;
     list-style: inside;
