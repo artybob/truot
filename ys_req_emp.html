@@ -14,12 +14,12 @@
 </head>
 <body>
 <div class="d-flex">
-    <div class="col-3 left-menu">
+    <div class="left-menu">
         <a href="#" class="left-menu-logo d-inline-flex link-body-emphasis text-decoration-none">
             <img class="bi" width="150" height="80" src="img\svg\logo.svg">
         </a>
 
-        <ul>
+        <ul class="list-unstyled">
             <li><a href="ys_req_emp.html" class="link-body-emphasis text-decoration-none active"><span class="material-symbols-outlined">work</span> Заявки от работодателей</a></li>
             <li><a href="ys_ac_req.html" class="link-body-emphasis text-decoration-none"><span class="material-symbols-outlined">check_circle</span> Принятые заявки</a></li>
             <li><a href="ys_sq_recr.html" class="link-body-emphasis text-decoration-none"><span class="material-symbols-outlined">backpack</span> Набор отрядов</a></li>
@@ -31,13 +31,12 @@
             <button class="btn btn-primary btn-lg btn-curs" type="submit">Техподдержка</button>
         </div>
     </div>
-    <div class="col-9 right-board">
-        <div class="right-board-grid mb-5">
+    <div class="right-board">
+        <div class="right-board-grid mb-5 top-menu-lg">
             <label class="search-input">
                 <img src="img\svg\Search.svg" alt="search">
                 <input type="text" class="form-control" id="Name" placeholder="Поиск">
             </label>
-
             <div class="user-block">
                 <a href="#" class="left-menu-logo d-inline-flex link-body-emphasis text-decoration-none">
                     <img width="70" height="70" src="img\svg\User_no_avatar.svg">
@@ -50,35 +49,42 @@
                         Молодеж. центр
                     </div>
                 </div>
+                <span class="material-symbols-outlined expand-arrow">
+                    expand_more
+                </span>
             </div>
         </div>
 
+        <div class="mb-5 top-menu-sm">
+            <a href="#" class="left-menu-logo d-inline-flex link-body-emphasis text-decoration-none">
+                <img class="bi logo-sm" src="img\svg\logo.svg">
+            </a>
+            <div class="search-input">
+                <img src="img\svg\Search.svg" alt="search">
+                <input type="text" class="form-control top-search" id="Name" placeholder="Поиск">
+            </div>
+            <span class="material-symbols-outlined burger-menu">menu</span>
+        </div>
+
+        <div class="top-menu-xs">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <a href="#" class="left-menu-logo d-inline-flex link-body-emphasis text-decoration-none">
+                    <img class="bi logo-sm" src="img\svg\logo.svg">
+                </a>
+                <span class="material-symbols-outlined burger-menu">menu</span>
+            </div>
+            <div class="search-input">
+                <img src="img\svg\Search.svg" alt="search">
+                <input type="text" class="form-control top-search" id="Name" placeholder="Поиск">
+            </div>
+        </div>
 
         <div class="d-flex justify-content-between align-items-center mb-3">
             <h2>Заявки от работодателей</h2>
         </div>
 
-        <!-- <ul class="list-unstyled">
-            <li><span class="material-symbols-outlined me-2">calendar_today</span> 30 марта, 16:00 - 18:00</li>
-        </ul>
-        <div class="row">
-            <div class="col">
-                <ul class="list-inline">
-                    <li class="list-inline-item"><span class="material-symbols-outlined me-1">currency_ruble</span>500 ₽</li>
-                </ul>
-            </div>
-            <div class="col">
-                <ul class="list-inline">
-                    <li class="list-inline-item"><span class="material-symbols-outlined me-1">groups</span>20 чел.</li>
-                </ul>
-            </div>
-        </div>    
-        <ul class="list-unstyled">
-            <li><span class="material-symbols-outlined me-1">location_on</span>г.Красноярск, ул. Судостроительная, 1</li>
-        </ul> -->
-
         <div class="right-board-grid">
-            <div class="col task-card">
+            <div class="task-card">
                 <h3>Уборка снега</h3>
                 <p>Необходимо убрать снег вокруг дома Судостроительная 1</p>
                 <ul class="list-unstyled">
