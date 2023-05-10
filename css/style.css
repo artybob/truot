@@ -42,6 +42,7 @@ header .btn-outline-primary {
     --bs-btn-disabled-color: #8a8a8a;
     --bs-btn-disabled-bg: transparent;
     --bs-btn-disabled-border-color: #8a8a8a;
+    white-space: nowrap;
 }
 .btn-outline-primary {
     --bs-btn-hover-bg: #08615c;
