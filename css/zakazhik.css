@@ -55,8 +55,20 @@
     .right-board .top-menu-sm {
         display: none!important;
     }
+
+    .popup-menu {
+        display: block!important;
+    }
+
+    .user-block .name-wrap .user-name {
+        font-size: 12px!important;
+    }
+    .user-block .name-wrap .user-status {
+        font-size: 12px!important;
+    }
+
     .input-file {
-        font-size: 12px;!important;
+        font-size: 12px!important;
     }
     .top-menu-xs {
         display: block!important;
@@ -68,10 +80,51 @@
     .task-card-buttons {
         text-align: center;
     }
+
+}
+
+@media only screen and (max-width: 428px) {
     .task-card-buttons button:nth-child(1) {
         margin-bottom: 15px;
     }
 }
+
+.popup-menu {
+    position: absolute;
+    z-index: 2;
+    background: #FFFFFF;
+    border: 0.5px solid #888888;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    height: 100vh;
+    padding: 20px 14px;
+}
+
+.popup-menu ul {
+    font-size: 16px!important;
+    padding: 0px;
+}
+
+.popup-menu ul li {
+    list-style: none;
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+
+.popup-menu ul li a {
+    display: flex;
+    align-items: center;
+    color: #B8B8B8;
+}
+
+.popup-menu ul li a span{
+    margin-right: 10px;
+}
+
+.popup-menu ul li a:hover {
+    color: #000000;
+}
+
 
 .top-menu-xs {
     display: none;
@@ -197,6 +250,38 @@
     margin-left: auto;
     align-items: center;
 }
+
+.user-block-small{
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.user-block-small .btn-close {
+    width: 20px;
+    position: absolute;
+    right: 10px;
+}
+
+.user-block-small img{
+    width: 45px;
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+.popup-menu button {
+    font-size: 12px;
+    max-width: 160px;
+    padding: 11px;
+    line-height: 15px;
+    width: 160px;
+    margin-left: 23px;
+}
+
+.popup-menu-bottom {
+    position: absolute;
+    bottom: 24px;
+}
+
 .task-card button {
     line-height: 34px;
 }
