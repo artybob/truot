@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\app.css">
+    <link rel="stylesheet" href="css\fonts.css">
+    <link rel="stylesheet" href="css\style.css">  
+    <link rel="stylesheet" href="css\youth_squad.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <title>Пользователи</title>
+</head>
+<body>
+<div class="d-flex">
+    <div class="left-menu">
+        <a href="#" class="left-menu-logo d-inline-flex link-body-emphasis text-decoration-none">
+            <img class="bi" width="150" height="80" src="img\svg\logo.svg">
+        </a>
+
+        <ul class="list-unstyled">
+            <li><a href="ys_req_emp.html" class="link-body-emphasis text-decoration-none"><span class="material-symbols-outlined">work</span> Заявки от работодателей</a></li>
+            <li><a href="ys_ac_req.html" class="link-body-emphasis text-decoration-none"><span class="material-symbols-outlined">check_circle</span> Принятые заявки</a></li>
+            <li><a href="ys_sq_recr.html" class="link-body-emphasis text-decoration-none "><span class="material-symbols-outlined">backpack</span> Набор отрядов</a></li>
+            <li><a href="ys_users.html" class="link-body-emphasis text-decoration-none active"><span class="material-symbols-outlined">groups</span> Пользователи</a></li>
+            <li><a href="ys_profile.html" class="link-body-emphasis text-decoration-none"><span class="material-symbols-outlined">person</span> Профиль</a></li>
+        </ul>
+
+        <div class="text-center bottom-button">
+            <button class="btn btn-primary btn-lg btn-curs" type="submit">Техподдержка</button>
+        </div>
+    </div>
+    <div class="right-board">
+        <div class="right-board-grid mb-5 top-menu-lg">
+            <label class="search-input">
+                <img src="img\svg\Search.svg" alt="search">
+                <input type="text" class="form-control" id="Name" placeholder="Поиск">
+            </label>
+            <div class="user-block">
+                <a href="#" class="left-menu-logo d-inline-flex link-body-emphasis text-decoration-none">
+                    <img width="70" height="70" src="img\svg\User_no_avatar.svg">
+                </a>
+                <div class="name-wrap">
+                    <div class="user-name">
+                        Зеркало
+                    </div>
+                    <div class="user-status">
+                        Молодеж. центр
+                    </div>
+                </div>
+                <span class="material-symbols-outlined expand-arrow">
+                    expand_more
+                </span>
+            </div>
+        </div>
+
+        <div class="mb-5 top-menu-sm">
+            <a href="#" class="left-menu-logo d-inline-flex link-body-emphasis text-decoration-none">
+                <img class="bi logo-sm" src="img\svg\logo.svg">
+            </a>
+            <div class="search-input">
+                <img src="img\svg\Search.svg" alt="search">
+                <input type="text" class="form-control top-search" id="Name" placeholder="Поиск">
+            </div>
+            <span class="material-symbols-outlined burger-menu">menu</span>
+        </div>
+
+        <div class="top-menu-xs">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <a href="#" class="left-menu-logo d-inline-flex link-body-emphasis text-decoration-none">
+                    <img class="bi logo-sm" src="img\svg\logo.svg">
+                </a>
+                <span class="material-symbols-outlined burger-menu">menu</span>
+            </div>
+            <div class="search-input">
+                <img src="img\svg\Search.svg" alt="search">
+                <input type="text" class="form-control top-search" id="Name" placeholder="Поиск">
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h2>Пользователи</h2>
+            <div class="row">
+                <button class="btn btn-outline-dark date me-4" type="submit"><span class="material-symbols-outlined me-2">calendar_today</span>15 марта</button>
+                <button class="btn btn-outline-dark settings" type="submit"><span class="material-symbols-outlined">
+                    tune
+                    </span></button>
+            </div>
+        </div>
+
+        <div class="right-board-col">
+            <div class="user-card row mb-4 justify-content-between align-items-center">
+                <div class="col-1">
+                    <img class="logo_img" src="img\pic\logo_pic.png" alt="search">
+                </div>
+                <div class="col-5">
+                    <ul class="list-unstyled">
+                        <li class="name">Иванова Мария Александровна</li>
+                        <li class="prof">Боец</li>
+                        <li><span class="material-symbols-outlined me-1">location_on</span>ММАУ «Центр путешественников»</li>
+                    </ul>
+                </div>
+                <div class="col-3 text-center">
+                    <ul class="list-unstyled">
+                        <li class="phone_number">+7(913)999-99-99</li>
+                        <li class="mail">ivanova_maria@mail.ru</li>
+                    </ul>
+                </div>
+                <div class="col-3 text-center">
+                    <ul class="list-unstyled">
+                        <li class="primary">Основной состав</li>
+                        <li><button class="btn col btn-primary btn-lg px-4" type="submit">14 марта - 30 марта</button></li>
+                    </ul>
+                </div>
+                <span class="material-symbols-outlined">more_vert</span>
+            </div>
+
+            <div class="user-card row mb-4 justify-content-between align-items-center">
+                <div class="col-1">
+                    <img class="logo_img" src="img\pic\logo_pic.png" alt="search">
+                </div>
+                <div class="col-5">
+                    <ul class="list-unstyled">
+                        <li>Тест Тест Тест</li>
+                        <li class="prof">Бригадир</li>
+                        <li><span class="material-symbols-outlined me-1">location_on</span>Зеркало</li>
+                    </ul>
+                </div>
+                <div class="col-3 text-center">
+                    <ul class="list-unstyled">
+                        <li class="phone_number">+7(913)999-99-99</li>
+                        <li class="mail">ivanova_maria@mail.ru</li>
+                    </ul>
+                </div>
+                <div class="col-3 text-center">
+                    <ul class="list-unstyled">
+                        <li class="reserve">В резерве</li>
+                        <li><button class="btn col btn-primary btn-lg px-4 reserve" type="submit">15 марта</button></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="user-card row mb-4 justify-content-between align-items-center">
+                <div class="col-1">
+                    <img class="logo_img" src="img\svg\User_no_avatar.svg" alt="search">
+                </div>
+                <div class="col-5">
+                    <ul class="list-unstyled">
+                        <li>Петров Иван Васильевич</li>
+                        <li class="prof">Администратор</li>
+                        <li><span class="material-symbols-outlined me-1">location_on</span>ММАУ «Центр путешественников»</li>
+                    </ul>
+                </div>
+                <div class="col-3 text-center">
+                    <ul class="list-unstyled">
+                        <li class="phone_number">+7(913)999-99-99</li>
+                        <li class="mail">petr@mail.ru</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                </div>
+            </div>
+
+            <div class="user-card row mb-4 justify-content-between align-items-center">
+                <div class="col-1">
+                    <img class="logo_img" src="img\svg\User_no_avatar.svg" alt="search">
+                </div>
+                <div class="col-5">
+                    <ul class="list-unstyled">
+                        <li>ЦВЕТМЕТ</li>
+                        <li class="prof">Работодатель</li>
+                    </ul>
+                </div>
+                <div class="col-3 text-center">
+                    <ul class="list-unstyled">
+                        <li class="phone_number">+7(913)999-99-99</li>
+                        <li class="mail">petr@mail.ru</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>
+</body>
+</html>
+

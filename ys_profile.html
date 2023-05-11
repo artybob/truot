@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\app.css">
+    <link rel="stylesheet" href="css\fonts.css">
+    <link rel="stylesheet" href="css\style.css">  
+    <link rel="stylesheet" href="css\youth_squad.css">
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <title>Профиль</title>
+</head>
+<body>
+<div class="d-flex">
+    <div class="left-menu">
+        <a href="#" class="left-menu-logo d-inline-flex link-body-emphasis text-decoration-none">
+            <img class="bi" width="150" height="80" src="img\svg\logo.svg">
+        </a>
+
+        <ul class="list-unstyled">
+            <li><a href="ys_req_emp.html" class="link-body-emphasis text-decoration-none"><span class="material-symbols-outlined">work</span> Заявки от работодателей</a></li>
+            <li><a href="ys_ac_req.html" class="link-body-emphasis text-decoration-none"><span class="material-symbols-outlined">check_circle</span> Принятые заявки</a></li>
+            <li><a href="ys_sq_recr.html" class="link-body-emphasis text-decoration-none "><span class="material-symbols-outlined">backpack</span> Набор отрядов</a></li>
+            <li><a href="ys_users.html" class="link-body-emphasis text-decoration-none"><span class="material-symbols-outlined">groups</span> Пользователи</a></li>
+            <li><a href="ys_profile.html" class="link-body-emphasis text-decoration-none active"><span class="material-symbols-outlined">person</span> Профиль</a></li>
+        </ul>
+
+        <div class="text-center bottom-button">
+            <button class="btn btn-primary btn-lg btn-curs" type="submit">Техподдержка</button>
+        </div>
+    </div>
+    <div class="right-board">
+        <div class="right-board-grid mb-5 top-menu-lg">
+            <label class="search-input">
+                <img src="img\svg\Search.svg" alt="search">
+                <input type="text" class="form-control" id="Name" placeholder="Поиск">
+            </label>
+            <div class="user-block">
+                <a href="#" class="left-menu-logo d-inline-flex link-body-emphasis text-decoration-none">
+                    <img width="70" height="70" src="img\svg\User_no_avatar.svg">
+                </a>
+                <div class="name-wrap">
+                    <div class="user-name">
+                        Зеркало
+                    </div>
+                    <div class="user-status">
+                        Молодеж. центр
+                    </div>
+                </div>
+                <span class="material-symbols-outlined expand-arrow">
+                    expand_more
+                </span>
+            </div>
+        </div>
+
+        <div class="mb-5 top-menu-sm">
+            <a href="#" class="left-menu-logo d-inline-flex link-body-emphasis text-decoration-none">
+                <img class="bi logo-sm" src="img\svg\logo.svg">
+            </a>
+            <div class="search-input">
+                <img src="img\svg\Search.svg" alt="search">
+                <input type="text" class="form-control top-search" id="Name" placeholder="Поиск">
+            </div>
+            <span class="material-symbols-outlined burger-menu">menu</span>
+        </div>
+
+        <div class="top-menu-xs">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <a href="#" class="left-menu-logo d-inline-flex link-body-emphasis text-decoration-none">
+                    <img class="bi logo-sm" src="img\svg\logo.svg">
+                </a>
+                <span class="material-symbols-outlined burger-menu">menu</span>
+            </div>
+            <div class="search-input">
+                <img src="img\svg\Search.svg" alt="search">
+                <input type="text" class="form-control top-search" id="Name" placeholder="Поиск">
+            </div>
+        </div>
+
+        <div class="right-board-grid">
+            <div class="customer-profile-desc">
+                <h1>
+                    Профиль
+                </h1>
+
+                <div>
+                    Молодежный центр? Введите контактные данные такие, как адрес, телефон и email для связи
+                </div>
+
+                <span class="mt-4">Это необходимо для сотрудничества с молодежными центрами</span>
+            </div>
+
+            <div>
+                <div class="customer-profile-change-photo mb-4">
+                    <img src="img\svg\User_no_avatar.svg">
+
+                    <form method="post" enctype="multipart/form-data" class="avatar-form">
+                        <label class="input-file">
+                            <div class="mb-2">Обновить фото</div>
+                            <!-- <input type="file" name="file"> -->
+                        </label>
+                    </form>
+                </div>
+
+                <form class="row g-3 needs-validation" novalidate>
+                    <div>
+                        <label for="CompanyName" class="form-label ">Молодежный центр</label>
+                        <input type="text" class="form-control" placeholder="Название молодежного центра" id="CompanyName" required>
+                    </div>
+
+                    <div>
+                        <label for="CompanyName" class="form-label ">Город</label>
+                        <input type="text" class="form-control" placeholder="Город" id="CompanyName" required>
+                    </div>
+
+                    <div>
+                        <label for="CompanyName" class="form-label ">Район</label>                        
+                        <select class="form-select " name="" id="">
+                            <option value="">
+                                Центральный р-н
+                            </option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="CompanyName" class="form-label ">Адрес</label>
+                        <input type="text" class="form-control" placeholder="Адрес" id="CompanyName" required>
+                    </div>
+                    
+                    <div>
+                        <label for="CompanyName" class="form-label ">Телефон</label>
+                        <input type="text" class="form-control" placeholder="Телефон" id="CompanyName" required>
+                    </div>
+                    <div>
+                        <label for="CompanyName" class="form-label ">Email</label>
+                        <input type="text" class="form-control" placeholder="Email" id="CompanyName" required>
+                    </div>
+
+                    <div class="mb-2">
+                        <label for="Documents" class="form-label ">Документы</label>
+
+                        <div class="docs">
+                            Приложите следующий список документов:
+                            <ul>
+                                <li>Док №1</li>
+                                <li>Док №2</li>
+                            </ul>
+
+                            <button class="btn btn-outline-primary">Добавить документы</button>
+                            <div class="docs-list">
+                                <div class="docs-list-item">
+                                    Документ №1.doc
+                                    <button type="button" class="btn-close" aria-label="Close"></button>
+                                </div>
+                                <div class="docs-list-item">
+                                    Документ №2.doc
+                                    <button type="button" class="btn-close" aria-label="Close"></button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <button class="btn btn-primary btn-lg btn-curs" type="submit">Сохранить данные</button>
+                    </div>
+                </form>
+            </div>
+        </div> 
+    </div>
+</div>
+</body>
+</html>
+
