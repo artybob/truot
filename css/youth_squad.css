@@ -147,7 +147,7 @@ img.logo_img {
     color: white;
 }
 
-.btn.btn-outline-dark.date.me-4 {
+.btn.btn-outline-dark.date.me-sm-4.me-3 {
     flex-wrap: nowrap;
     height: 60px;
     width: 200px;    
@@ -155,7 +155,7 @@ img.logo_img {
     --bs-btn-hover-border-color: #2C9C8C;
 }
 
-.btn.btn-outline-dark.settings{
+.btn.btn-outline-dark.settings.me-sm-3{
     height: 60px;
     width: 60px;
     border-radius: 60px;
@@ -309,6 +309,12 @@ img.logo_img {
     .left-menu-logo {
         margin-left: 0!important;
     }
+
+    img.logo_img {
+        height: 100px;
+        width: 100px;
+        border-radius: 60px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -341,6 +347,9 @@ img.logo_img {
         text-align: center;
     }
 
+    .task-card {
+        padding: 18px;
+    }
 }
 
 @media only screen and (max-width: 428px) {
